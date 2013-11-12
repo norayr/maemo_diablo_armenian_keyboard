@@ -1,0 +1,259 @@
+# title: Georgian typewriter layout
+# author: Norayr Chilingaryan <norayr@arnet.am>
+
+header {
+name	"კართული (Georgia) - Typewriter"
+lang	"ka_GE"
+wc	"ka_GE"
+
+size	0	{ width 35 height 35 textpos 26 left 0 top 0 }
+size	1	{ width 35 height 35 textpos 26 left 0 top 0 }
+size	2	{ width 66 height 55 textpos 41 left 0 top 0 }
+size	3	{ width 131 height 55 textpos 41 left 0 top 0 }
+#size	4	{ width 143 height 55 textpos 41 left 0 top 0 }
+}
+
+kbd_normal {
+lowercase {
+	margin 0 0 0 0
+	default_size 1
+	row {
+	key ღ alpha
+	key ჯ alpha
+	key უ alpha
+	key კ alpha
+	key ე alpha
+	key ნ alpha
+	key გ alpha
+	key შ alpha
+	key წ alpha
+	key ზ alpha
+	key ხ alpha
+	key ც alpha
+	}
+	row {
+	key ფ alpha
+	key ძ alpha
+	key ვ alpha
+	key თ alpha
+	key ა alpha
+	key პ alpha
+	key რ alpha
+	key ო alpha
+	key ლ alpha
+        key დ  alpha
+	key ჟ alpha
+        key " alpha
+	}
+	row {
+	key ჭ alpha
+	key ჩ alpha
+	key ყ alpha
+	key ს alpha
+	key მ alpha
+	key ი alpha
+	key ტ alpha
+	key ქ alpha
+	key ბ alpha
+	key ჰ  alpha
+        key ( alpha
+        key ) alpha
+	}
+}
+
+lowercase_num {
+	margin 0 0 0 9
+	default_size 0
+	row {
+	key „ alpha
+	key ! alpha
+	key ? alpha
+	}
+	row {
+	key № alpha
+	key § alpha
+	key % alpha
+	}
+	row {
+	key : alpha
+	key . alpha
+	key ; alpha
+	}
+	row {
+        key , alpha
+	key / alpha
+	key – alpha
+	}
+}
+
+
+uppercase {
+	margin 0 0 0 0
+	default_size 1
+	row {
+	key ღ alpha
+	key ჯ alpha
+	key უ alpha
+	key კ alpha
+	key ჱ alpha
+	key ნ alpha
+	key გ alpha
+	key შ alpha
+	key წ alpha
+	key ზ alpha
+	key ჴ alpha
+	key ც alpha
+	}
+	row {
+	key ჶ alpha
+	key ძ alpha
+	key ჳ alpha
+	key თ alpha
+	key ა alpha
+	key პ alpha
+	key რ alpha
+	key ო alpha
+	key ლ alpha
+        key დ  alpha
+	key ჟ alpha
+        key " alpha
+	}
+	row {
+	key ჭ alpha
+	key ჩ alpha
+	key ყ alpha
+	key ს alpha
+	key მ alpha
+	key ჲ alpha
+	key ტ alpha
+	key ქ alpha
+	key ბ alpha
+	key ჵ  alpha
+        key ( alpha
+        key ) alpha
+	}
+}
+
+uppercase_num {
+	margin 0 0 0 9
+	default_size 0
+	row {
+	key 1 alpha
+	key 2 alpha
+	key 3 alpha
+	}
+	row {
+	key 4 alpha
+	key 5 alpha
+	key 6 alpha
+	}
+	row {
+	key 7 alpha
+	key 8 alpha
+	key 9 alpha
+	}
+	row {
+        key + alpha
+	key 0 alpha
+	key = alpha
+	}
+}
+}
+
+kbd_thumb {
+lowercase {
+	name "ღჯუ"
+	margin 0 0 0 0
+	default_size 2
+	row {
+	key ღ alpha
+	key ჯ alpha
+	key უ alpha
+	key კ alpha
+	key ე alpha
+	key ნ alpha
+	key გ alpha
+	key შ alpha
+	key წ alpha
+	key ზ alpha
+	key ხ alpha
+	key ც alpha
+	}
+	row {
+	key ფ alpha
+	key ძ alpha
+	key ვ alpha
+	key თ alpha
+	key ა alpha
+	key პ alpha
+	key რ alpha
+	key ო alpha
+	key ლ alpha
+        key დ  alpha
+	key ჟ alpha
+        key " alpha
+	}
+	row {
+	key ჭ alpha
+	key ჩ alpha
+	key ყ alpha
+	key ს alpha
+	key მ alpha
+	key ი alpha
+	key ტ alpha
+	key ქ alpha
+	key ბ alpha
+	key ჰ  alpha
+        key ( alpha
+        key ) alpha
+	}
+}
+uppercase {
+	name "ღჯუ"
+	margin 0 0 0 0
+	default_size 2
+	row {
+	key ღ alpha
+	key ჯ alpha
+	key უ alpha
+	key კ alpha
+	key ჱ alpha
+	key ნ alpha
+	key გ alpha
+	key შ alpha
+	key წ alpha
+	key ზ alpha
+	key ჴ alpha
+	key ც alpha
+	}
+	row {
+	key ჶ alpha
+	key ძ alpha
+	key ჳ alpha
+	key თ alpha
+	key ა alpha
+	key პ alpha
+	key რ alpha
+	key ო alpha
+	key ლ alpha
+        key დ  alpha
+	key ჟ alpha
+        key " alpha
+	}
+	row {
+	key ჭ alpha
+	key ჩ alpha
+	key ყ alpha
+	key ს alpha
+	key მ alpha
+	key ჲ alpha
+	key ტ alpha
+	key ქ alpha
+	key ბ alpha
+	key ჵ  alpha
+        key ( alpha
+        key ) alpha
+	}
+}
+}
+

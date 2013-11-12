@@ -1,0 +1,235 @@
+# title: Georgian phonecit layout
+# author: Norayr Chilingaryan <norayr@arnet.am>
+
+header {
+name	"კართული (Georgia) - Phonetic"
+lang	"ka_GE"
+wc	"ka_GE"
+
+size	0	{ width 35 height 35 textpos 26 left 0 top 0 }
+size	1	{ width 35 height 35 textpos 26 left 0 top 0 }
+size	2	{ width 66 height 55 textpos 41 left 0 top 0 }
+size	3	{ width 131 height 55 textpos 41 left 0 top 0 }
+#size	4	{ width 143 height 55 textpos 41 left 0 top 0 }
+}
+
+kbd_normal {
+lowercase {
+	margin 0 0 0 0
+	default_size 1
+	row {
+	key ქ alpha
+	key წ alpha
+	key ე alpha
+	key რ alpha
+	key ტ alpha
+	key ყ alpha
+	key უ alpha
+	key ი alpha
+	key ო alpha
+	key პ alpha
+	}
+	row {
+	key ა alpha
+	key ს alpha
+	key დ alpha
+	key ფ alpha
+	key გ alpha
+	key ჰ alpha
+	key ჯ alpha
+	key კ alpha
+	key ლ alpha
+        key ( alpha
+	}
+	row {
+	key ზ alpha
+	key ხ alpha
+	key ც alpha
+	key ვ alpha
+	key ბ alpha
+	key ნ alpha
+	key მ alpha
+	key , alpha
+	key . alpha
+        key ) alpha
+	}
+}
+
+lowercase_num {
+	margin 0 0 0 9
+	default_size 0
+	row {
+	key „ alpha
+	key ! alpha
+	key ? alpha
+	}
+	row {
+	key № alpha
+	key § alpha
+	key % alpha
+	}
+	row {
+	key : alpha
+	key . alpha
+	key ; alpha
+	}
+	row {
+        key , alpha
+	key / alpha
+	key – alpha
+	}
+}
+
+
+uppercase {
+	margin 0 0 0 0
+	default_size 1
+	row {
+	key ქ alpha
+	key ჭ alpha
+	key ე alpha
+	key ღ alpha
+	key თ alpha
+	key ყ alpha
+	key უ alpha
+	key ი alpha
+	key ო alpha
+	key პ alpha
+	}
+	row {
+	key ა alpha
+	key შ alpha
+	key დ alpha
+	key ფ alpha
+	key გ alpha
+	key ჰ alpha
+	key ჟ alpha
+	key კ alpha
+	key ლ alpha
+        key ( alpha
+	}
+	row {
+	key ძ alpha
+	key ხ alpha
+	key ც alpha
+	key ვ alpha
+	key ბ alpha
+	key ნ alpha
+	key მ alpha
+	key < alpha
+	key > alpha
+        key ) alpha
+	}
+}
+
+uppercase_num {
+	margin 0 0 0 9
+	default_size 0
+	row {
+	key 1 alpha
+	key 2 alpha
+	key 3 alpha
+	}
+	row {
+	key 4 alpha
+	key 5 alpha
+	key 6 alpha
+	}
+	row {
+	key 7 alpha
+	key 8 alpha
+	key 9 alpha
+	}
+	row {
+        key + alpha
+	key 0 alpha
+	key = alpha
+	}
+}
+}
+
+kbd_thumb {
+lowercase {
+	name "ღჯუ"
+	margin 0 0 0 0
+	default_size 2
+	row {
+	key ქ alpha
+	key წ alpha
+	key ე alpha
+	key რ alpha
+	key ტ alpha
+	key ყ alpha
+	key უ alpha
+	key ი alpha
+	key ო alpha
+	key პ alpha
+	}
+	row {
+	key ა alpha
+	key ს alpha
+	key დ alpha
+	key ფ alpha
+	key გ alpha
+	key ჰ alpha
+	key ჯ alpha
+	key კ alpha
+	key ლ alpha
+        key ( alpha
+	}
+	row {
+	key ზ alpha
+	key ხ alpha
+	key ც alpha
+	key ვ alpha
+	key ბ alpha
+	key ნ alpha
+	key მ alpha
+	key , alpha
+	key . alpha
+        key ) alpha
+	}
+}
+uppercase {
+	name "ღჯუ"
+	margin 0 0 0 0
+	default_size 2
+	row {
+	key ქ alpha
+	key ჭ alpha
+	key ე alpha
+	key ღ alpha
+	key თ alpha
+	key ყ alpha
+	key უ alpha
+	key ი alpha
+	key ო alpha
+	key პ alpha
+	}
+	row {
+	key ა alpha
+	key შ alpha
+	key დ alpha
+	key ფ alpha
+	key გ alpha
+	key ჰ alpha
+	key ჟ alpha
+	key კ alpha
+	key ლ alpha
+        key ( alpha
+	}
+	row {
+	key ძ alpha
+	key ხ alpha
+	key ც alpha
+	key ვ alpha
+	key ბ alpha
+	key ნ alpha
+	key მ alpha
+	key < alpha
+	key > alpha
+        key ) alpha
+	}
+}
+}
+
